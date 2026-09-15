@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     padding: 0;
 }
@@ -27,6 +27,11 @@ li a {
 
 li a:hover{
     background: lime;
+    color: black;
+}
+
+li a.active{
+    background: #3fe1bd;
     color: black;
 }
 
